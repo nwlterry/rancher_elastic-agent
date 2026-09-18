@@ -1,3 +1,7 @@
+## Layout
+
+Runbook repository: copy YAML from this README into `configmap.yaml`, `daemonset.yaml`, and `rbac.yaml`. OpenShift variant: [elastic-agent-uptime-ocp](https://github.com/nwlterry/elastic-agent-uptime-ocp).
+
 **Here are complete, ready-to-use manifests** for deploying **Elastic Agent as a DaemonSet** using a **ConfigMap** for `elastic-agent.yml`.
 
 ### 1. `configmap.yaml` (with Elasticsearch Root CA)
@@ -225,3 +229,7 @@ Would you like me to adjust anything? For example:
 - Use a different Elastic Agent version
 
 Just let me know your Elasticsearch version and whether you're using Fleet or standalone.
+
+---
+
+See [GROUP.md](GROUP.md) for sibling repositories. Catalog: https://github.com/nwlterry/nwlterry
